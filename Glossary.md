@@ -66,4 +66,4 @@ wc [OPTION]... [FILE]
 **cat** - Concatenate FILE to standard output
 cat copy standard input to standard output.
 
-TEST TEST TEST 
+TEST TEST TEST TEST TEST TEST TEST 
