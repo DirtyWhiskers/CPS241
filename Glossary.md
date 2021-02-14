@@ -64,4 +64,6 @@ is specified. A word is a non-zero-lenght sequence of characters by white space.
 wc [OPTION]... [FILE] 
 
 **cat** - Concatenate FILE to standard output
-cat copy standard input to standard output. 
+cat copy standard input to standard output.
+
+TEST TEST TEST 
