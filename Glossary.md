@@ -66,4 +66,8 @@ wc [OPTION]... [FILE]
 **cat** - Concatenate FILE to standard output
 cat copy standard input to standard output.
 
-TEST TEST TEST TEST TEST TEST TEST 
+**grep** - Filter searches a file for a particular pattern for characters, and displays all lines that
+contain that pattern. The pattern that is searched in the file is referred to as the REGULAR EXPRESSION.
+(grep stands for globally search for regular expression and print out)
+grep [OPTIONS] pattern [files] 
+
