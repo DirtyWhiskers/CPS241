@@ -71,3 +71,4 @@ contain that pattern. The pattern that is searched in the file is referred to as
 (grep stands for globally search for regular expression and print out)
 grep [OPTIONS] pattern [files] 
 
+**find** - 
