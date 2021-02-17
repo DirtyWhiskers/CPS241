@@ -71,4 +71,37 @@ contain that pattern. The pattern that is searched in the file is referred to as
 (grep stands for globally search for regular expression and print out)
 grep [OPTIONS] pattern [files] 
 
-**find** - 
+**find** - Seach for files in a director hierarchy 
+find [-H] [starting-point....] [expression]
+
+**df** - Show information about the file system on which each FILE resides, or all file systems by default
+report file system dish space usage
+df [OPTION] [File] 
+
+**du** - estimate file space usage
+du [OPTION]... [FILE] 
+
+**more** - a filter for paging through text one screenful at a time. This version is especially primitive.
+more [OPTIONS] file
+
+**less** - Opposite of more. Less dose not have to read the entire input file before starting. 
+less [OPTIONS] file
+
+**head** - Print the first 10 lines of each FILE to standard output.
+head [OPTION]... [FILE] 
+
+**tail** - Print the last 10 lines of each FILE to standard output. 
+tail [OPTION]... [FILE]... 
+
+**wc** - Print newline, word, and byte counts for each file
+wc [OPTIONS]... [FILE] 
+
+
+
+
+
+
+
+
+
+ 
