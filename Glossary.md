@@ -96,12 +96,21 @@ tail [OPTION]... [FILE]...
 **wc** - Print newline, word, and byte counts for each file
 wc [OPTIONS]... [FILE] 
 
+**wget** - The non-interactive network downloader
+wget [OPTION]...[URL] 
 
+**curl** - A tool to transfer data from or to a sever, using one of the supported protocols. 
+curl [OPTIONS / URLs] 
 
+**rlwrap** - Runs the specified command, intercepting user input in order to provide readline's line editing, persistent 
+history and completion. 
+rlwrap [rlwrap-options] command ... 
 
+**uname** - Print certain system information. With no OPTION, same as -s 
+uname [OPTION].... 
 
-
-
-
+**dialog** - display dialog boxes from shell scripts
+dialog --clear 
+dialog --creat-rc file 
 
  
