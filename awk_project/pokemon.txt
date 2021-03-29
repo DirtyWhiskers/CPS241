@@ -1,0 +1,131 @@
+The largest total value = 780
+Column Average
+ 	Total    435.103
+ 	Hp       55407
+ 	Attack   79.0012
+ 	Defense  73.8425
+	Sp_atk   72.82
+ 	Speed    71.9025
+Most Powerful
+ 	Poison   Crobat
+	Fly      TornadusTherian Forme
+	Ground   GroudonPrimal Groudon
+	Electric AmpharosMega Ampharos
+ 	Dragon   RayquazaMega Rayquaza
+ 	Bug      Genesect
+	Normal   Arceus
+ 	Grass    SceptileMega Sceptile
+ 	Fire     Ho-oh
+ 	Water    KyogrePrimal Kyogre
+ 	Fairy    Xerneas
+ 	Rock     DiancieMega Diancie
+ 	Ice      Regice
+ 	Psychic  MewtwoMega Mewtwo Y
+ 	Dark     Yveltal
+Average statistic by Type
+Poison   
+	Total:   399.143
+	HP:   	 67.25
+	Attack:  74.6786
+	Defense: 68.8214
+	Sp_atk:  78.1429
+	Speed:   64.3929
+Fly      
+	Total:   485
+	HP:   	 70.75
+	Attack:  78.75
+	Defense: 66.25
+	Sp_atk:  94.25
+	Speed:   20
+Ground   
+	Total:   437.5
+	HP:   	 73.7812
+	Attack:  95.75
+	Defense: 84.8438
+	Sp_atk:  56.4688
+	Speed:   62.75
+Electric 
+	Total:   443.409
+	HP:   	 59.7955
+	Attack:  69.0909
+	Defense: 66.2955
+	Sp_atk:  70.9318
+	Speed:   73.7045
+Dragon   
+	Total:   550.531
+	HP:   	 83.3125
+	Attack:  112.125
+	Defense: 86.375
+	Sp_atk:  96.8438
+	Speed:   88.8438
+Bug      
+	Total:   76.1739
+	HP:   	 71.3768
+	Attack:  70.971
+	Defense: 71.6957
+	Sp_atk:  72.2754
+	Speed:   71.6957
+Normal   
+	Total:   401.684
+	HP:   	 77.2755
+	Attack:  73.4694
+	Defense: 59.8469
+	Sp_atk:  55.8163
+	Speed:   63.7245
+Grass    
+	Total:   531
+	HP:   	 123
+	Attack:  100
+	Defense: 62
+	Sp_atk:  97
+	Speed:   81
+Fire     
+	Total:   600
+	HP:   	 80
+	Attack:  110
+	Defense: 120
+	Sp_atk:  130
+	Speed:   90
+Water    
+	Total:   500
+	HP:   	 71
+	Attack:  73
+	Defense: 88
+	Sp_atk:  120
+	Speed:   89
+Fairy    
+	Total:   680
+	HP:   	 126
+	Attack:  131
+	Defense: 95
+	Sp_atk:  131
+	Speed:   98
+Rock     
+	Total:   15.9091
+	HP:   	 1.13636
+	Attack:  2.5
+	Defense: 2.5
+	Sp_atk:  3.63636
+	Speed:   2.5
+Ice      
+	Total:   21.4167
+	HP:   	 3.95833
+	Attack:  4.875
+	Defense: 7.66667
+	Sp_atk:  1.83333
+	Speed:   1.91667
+Psychic  
+	Total:   11.9298
+	HP:   	 1.40351
+	Attack:  2.80702
+	Defense: 1.05263
+	Sp_atk:  2.98246
+	Speed:   2.2807
+Dark     
+	Total:   680
+	HP:   	 126
+	Attack:  131
+	Defense: 95
+	Sp_atk:  131
+	Speed:   98
+What pokemon has the greatest HP = Blissey
