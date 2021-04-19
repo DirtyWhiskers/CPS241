@@ -8,7 +8,7 @@ void sort(char** contents, int size) {
 	FILE *file; 
 	file = fopen("out_of_order_file", "r");
 	int count =0,j,c;
-	int i=0;  
+	int i;  
 	char *token = strtok(*contents, "\n");
 
 	while((c =fgetc(file)) != EOF){
@@ -38,12 +38,9 @@ void sort(char** contents, int size) {
 		}
 		tokArr[j + 1] = current; // store current item 
 	}
-	/*
-	for (i = 0; i <count; ++i){
-		printf("%s\n", tokArr[i]);
-	}
-	*/
-		free(tokArr[i]);
+
+
+		free(tokArr);
 		fclose(file); 
 	
 }

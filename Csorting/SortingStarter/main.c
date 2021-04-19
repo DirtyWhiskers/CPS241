@@ -3,12 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 	
-/*
- * Read the file from the command-line.
- * Usage:
- * ./a.out FILE_TO_READ FILE_TO_WRITE
- *
- */
 
 int main(int argc, char** argv){
 	// Read the original file.
@@ -18,8 +12,9 @@ int main(int argc, char** argv){
         size_t size = load_file("out_of_order_file", &contents);
   
 
-	// Sort the file with the function you wrote.
+	// Sort the file with the function
 	sort(&contents, size);
+	
 
 	// Write out the new file.
 	save_file("output_file", contents, size); 
@@ -27,9 +22,3 @@ int main(int argc, char** argv){
 
 }
 
-// You can see if your file worked correctly by using the
-// command:
-//
-// diff ORIGINAL_FILE NEW_FILE
-//
-// If the command returns ANYTHING the files are different.
