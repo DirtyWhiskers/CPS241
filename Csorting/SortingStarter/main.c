@@ -19,6 +19,6 @@ int main(int argc, char** argv){
 	// Write out the new file.
 	save_file("output_file", contents, size); 
  	
- 
+  	free(contents);
 }
 

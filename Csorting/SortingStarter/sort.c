@@ -5,17 +5,15 @@
 
 void sort(char** contents, int size) {
 	char* current; //store the current element in array
-	FILE *file;  
-	file = fopen("out_of_order_file", "r");
 	int count =0,j,c;
 	int i;  
 	char *token = strtok(*contents, "\n"); //split string into series of token based on newline  
 
-	while((c =fgetc(file)) != EOF){
-		if(c == '\n'){
-			count++;
+	for (int i = 0; i<size; ++i){
+		if((*contents)[i] == '\n')
+		count++;
 		}
-	}
+	
 
 	char** tokArr = malloc(sizeof(char*) * count); // create space in memory for creation of array 
 	while (token != NULL){ 
@@ -39,12 +37,7 @@ void sort(char** contents, int size) {
 		tokArr[j + 1] = current; // store current item 
 	}
 	
-	for(i =0; i<count; ++i){
-		printf("%s\n", tokArr[i]);
-	}
-
-		free(tokArr);
-		fclose(file);
-
+	
+	contents = tokArr; 
 	
 }
