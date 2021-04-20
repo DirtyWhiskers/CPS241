@@ -4,12 +4,12 @@
 #include <string.h> 
 
 void sort(char** contents, int size) {
-	char* current;
-	FILE *file; 
+	char* current; //store the current element in array
+	FILE *file;  
 	file = fopen("out_of_order_file", "r");
 	int count =0,j,c;
 	int i;  
-	char *token = strtok(*contents, "\n");
+	char *token = strtok(*contents, "\n"); //split string into series of token based on newline  
 
 	while((c =fgetc(file)) != EOF){
 		if(c == '\n'){
@@ -17,11 +17,11 @@ void sort(char** contents, int size) {
 		}
 	}
 
-	char** tokArr = malloc(sizeof(char*) * count);
-	while (token != NULL){
-		tokArr[i] = token;
+	char** tokArr = malloc(sizeof(char*) * count); // create space in memory for creation of array 
+	while (token != NULL){ 
+		tokArr[i] = token; // store token in tokArr  
 		i++; 	
-		token = strtok(NULL, "\n");
+		token = strtok(NULL, "\n"); //break out of loop
 	}		
 
 
@@ -34,13 +34,17 @@ void sort(char** contents, int size) {
 
 		while(j >= 0 &&  strcasecmp(tokArr[j], current) > 0){ //STRCPM item is greater then shift them to right 
 			tokArr[j + 1] = tokArr[j]; //copy to right side 
-			j--;
+			j--; // increment to the right 
 		}
 		tokArr[j + 1] = current; // store current item 
 	}
-
+	
+	for(i =0; i<count; ++i){
+		printf("%s\n", tokArr[i]);
+	}
 
 		free(tokArr);
-		fclose(file); 
+		fclose(file);
+
 	
 }
