@@ -37,6 +37,10 @@ void sort(char** contents, int size) {
 		tokArr[j + 1] = current; // store current item 
 	}
 	
+	for(i =0; i<count; ++i){
+		printf("%s\n", tokArr[i]);
+	}
+	
 	
 	contents = tokArr; 
 	
