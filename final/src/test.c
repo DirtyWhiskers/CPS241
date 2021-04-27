@@ -20,16 +20,15 @@ void one(Student* a){
 	a->gpa = 1.16; 
 }
 
-//DOES NOT PASS TEST
 void two(Student* a, Student* b){	 
-  	     	b = (Student*)malloc(sizeof(Student)); 
-    	        a = b; 
+  	a->first_name = b->first_name;
+	a->last_name = b->last_name; 
+     	a->g_number = b->g_number;
+	a->gpa = b-> gpa; 	
 }
-
-//SEG FAULT 
+ 
 void three(Student a, Student* b){
-	 Student *c = &a;
-	 b = (Student*)malloc(sizeof(Student));
+	 *b = a;  
 }
 
 
@@ -68,7 +67,7 @@ Student* six(){
 
 //SEG FAULT 
 void seven(Student** students){ 
-	students = (Student**)malloc(sizeof(Student)*10); 
+	students = (Student**)malloc(sizeof(Student**)*10); 
 	students[9]->first_name = "Luigi";
 	students[9]->last_name = "Mario";
 	students[9]->g_number = 2; 
